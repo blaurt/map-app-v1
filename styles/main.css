@@ -1,0 +1,28 @@
+header {
+  text-align: center;
+}
+
+section {
+  text-align: center;
+}
+
+section .map {
+  display: inline-block;
+  position: relative;
+}
+
+section .map img {
+  max-width: 80vw;
+  width: 1200px;
+  margin: auto;
+  border: 1px solid black;
+}
+
+.pointer {
+  top: 0;
+  left: 0;
+  position: absolute;
+  border-radius: 100%;
+  color: transparent;
+  border: 3px solid red;
+}
